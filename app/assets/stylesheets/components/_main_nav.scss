@@ -2,35 +2,42 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 0px;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  font-family: $sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
 .right-nav > ul > li {
-
+  font-family: $sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-right: 5px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  font-size: 17px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  color: $lightest-gray;
 }
 
 .left-nav span {
-
+  margin: 0 15px 0 5px;
 }
 
 
 .right-nav i {
-
+  margin-left: 10px;
 }
