@@ -1,10 +1,11 @@
 .section-nav {
-  border-bottom: 1px solid $light-gray;
+  display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #d3d3d3;
 }
 
 .section-nav > ul {
   display: flex;
-  justify-content: center;
 }
 
 .section-nav li {
