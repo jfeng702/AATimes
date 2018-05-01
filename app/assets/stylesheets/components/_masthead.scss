@@ -4,7 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
-	
+
 }
 
 .language-nav {
@@ -80,4 +80,10 @@
 
 .language-nav li:first-of-type a {
 	font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+	.language-nav {
+		display: none;
+	}
 }

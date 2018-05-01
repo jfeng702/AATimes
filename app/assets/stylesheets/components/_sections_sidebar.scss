@@ -1,0 +1,13 @@
+@media all and (max-width: 1000px) {
+  .sections_nav {
+    display: none;
+  }
+}
+
+.sections-sidebar.expand {
+  opacity: 1;
+}
+
+.sections-sidebar {
+  opacity: 0;
+}
